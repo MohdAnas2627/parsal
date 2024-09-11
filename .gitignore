@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+# Node modules (for React Native projects)
+node_modules/
