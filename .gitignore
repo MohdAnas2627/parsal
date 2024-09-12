@@ -1,34 +1,50 @@
-# Prerequisites
-*.d
+# Build artifacts
+build/
+dist/
+bin/
+out/
 
-# Compiled Object files
-*.slo
-*.lo
+# C/C++ compiler output
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
+*.so
+*.elf
+*.dSYM
 
-# Executables
-*.exe
-*.out
-*.app
-# Node modules (for React Native projects)
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Java class files
+*.class
+*.jar
+
+# Node.js module directory
 node_modules/
+
+# IDE-specific files
+*.suo
+*.user
+*.sln
+*.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.bak
+*~
+
+# Log files
+*.log
+
+# Test results
+test-results/
+coverage/
+
+# Git-specific files
+.git/
+.gitignore
+
+# Android build output (if not using Git LFS)
+android/app/build/outputs/apk/debug/app-debug.apk
